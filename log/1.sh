@@ -10,4 +10,4 @@ echo $date > "./${file}"
 git add .
 git commit -a -m"$commitTip"
 git push
-
+tm -rf "./${file}"
