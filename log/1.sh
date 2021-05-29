@@ -7,6 +7,6 @@ echo $file
 touch $file
 echo $commitTip
 git add .
-git commit -a -m"{$commentTip}"
+git commit -a -m"{$commitTip}"
 git push
 
