@@ -4,6 +4,6 @@
    do
        sh 1.sh
         n=$((n+1))
-       sleep 600
+       sleep 300
    done
 
