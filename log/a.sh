@@ -13,7 +13,7 @@ git push
 
 file_number=$(ls | grep log | wc -l)
 echo $file_number
-if [ $file_number -gt 100 ];
+if [ $file_number -gt 100 ];then
 #        rm -rf ./*.log
 	echo 3
 fi
