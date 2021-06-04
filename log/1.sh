@@ -12,8 +12,8 @@ git commit -a -m"$commitTip"
 git push
 
 file_number=$(ls | grep log | wc -l)
-echo $file_number
-if [ $file_number > 100 ];then
+#echo $file_number 
+if [ $file_number -gt 100 ];then
         rm -rf ./*.log
 fi
 
